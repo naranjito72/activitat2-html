@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+* {
+  font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+* html body {
+  background-color: whitesmoke;
+  height: 100%;
+}
+* body{
+  margin-bottom: 0;
+}
+
+* body header {
+  background-color: #55d6aa;
+  
+}
+
+* body header::after {
+  content: " ";
+  display: table;
+  clear: both;
+  
+}
+
+* body header .container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #55d6aa;
+
+}
+
+/* * body header .container .logo {
+  float: left;
+  padding: 2rem 0;
+  margin-left: 2rem;
+} */
+* body header .container h1 {
+  float: left;
+  padding: 2rem 0;
+  margin-left: 2rem;
+  color: whitesmoke;
+  font-size: 190%;
+  font-weight: bold;
+}
+* body header .container h1:hover {
+  color: #333;
+}
+
+* body header .container nav {
+  float: right;
+}
+* body header .container nav ul{
+  margin: 0 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+* body header .container nav ul li{
+  display: inline-block;
+  font-size: 100%;
+  margin-left:3.5rem;
+  padding-top: 2rem;
+  
+
+  position: relative;
+}
+* body header .container nav ul li a{
+  font-weight: bold;
+  font-size: 120%;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+* body header .container nav ul li a:hover{
+  color: black;
+}
+* body header .container nav ul li a::before{
+  content: " ";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: black;
+  top: 0;
+  position: absolute;
+  transition: all ease-in-out 330ms;
+  -webkit-transition: all ease-in-out 330ms;
+  -moz-transition: all ease-in-out 330ms;
+  -ms-transition: all ease-in-out 330ms;
+  -o-transition: all ease-in-out 330ms;
+}
+* body header .container nav ul li a:hover::before{
+  width: 100%;
+
+}
+* body main{
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 100%;
+}
+* body main .contenedor{
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 15rem;
+}
+* body main .contenedor .portfolio{
+display: block;
+float: left;
+margin:  3rem auto;
+margin-left: 1rem;
+}
+* body main .contenedor .portfolio::after{
+  content: " ";
+display: table;
+clear: left;
+}
+* body main .contenedor .portfolio img{
+width: 15rem;
+height: auto;
+}
+* body main .contenedor .portfolio p{
+width: 15rem;
+height: auto;
+}
+* body footer{
+  width:100%;
+  height: 6rem;
+  background-color: #55d6aa;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+}
