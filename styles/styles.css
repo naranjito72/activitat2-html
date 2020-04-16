@@ -142,3 +142,22 @@ height: auto;
   right: 0;
   margin-bottom: 0;
 }
+* body footer div{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+* body footer div small img{
+  width: 2%;
+  height: auto;
+  
+}
+* body footer div small a{
+text-decoration: none;
+font-weight: bold;
+  
+}
+* body footer div small a:hover{
+color: whitesmoke;
+  
+}
